@@ -1,157 +1,100 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>صفحه من</title>
-    <style>
-      /* CSS کلی */
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        text-align: center;
-      }
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>🌟 خوش آمدید به دنیای من – HTML و CSS ساده 🌟</title>
+  <meta name="description" content="این صفحه نمونه HTML و CSS من است. شامل لینک، تصویر و فرم تماس می‌باشد.">
+  <meta name="keywords" content="HTML, CSS, صفحه نمونه, GitHub Pages, طراحی وب">
 
-      h1 { color: darkblue; }
-      h2 { color: darkgreen; }
-      p { color: #333333; font-size: 16px; }
+  <!-- متا تگ گوگل برای تأیید مالکیت -->
+  <meta name="google-site-verification" content="P69BEBeOHQq8k3z39bNc2WuXWpGElo24HFSmYoql7oY" />
 
-      a { color: red; text-decoration: none; font-weight: bold; }
-      a:hover { color: darkred; }
+  <style>
+    /* CSS کلی */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
 
-      img { border: 2px solid #000; margin-top: 10px; }
+    header {
+      background-color: #e0f7fa;
+      padding: 20px;
+    }
 
-      /* Header */
-      header {
-        background-color: #e0f7fa;
-        padding: 20px;
-        text-align: center;
-        border-radius: 10px;
-        margin-bottom: 20px;
-      }
+    h1 { color: darkblue; }
+    h2 { color: darkgreen; }
+    p { color: #333333; font-size: 16px; }
 
-      /* Navigation */
-      nav {
-        text-align: center;
-        margin-bottom: 20px;
-      }
+    a { color: red; text-decoration: none; font-weight: bold; }
+    a:hover { color: darkred; }
 
-      nav a {
-        text-decoration: none;
-        color: darkgreen;
-        font-weight: bold;
-        margin: 0 10px;
-      }
+    img { border: 2px solid #000; margin-top: 10px; max-width: 100%; height: auto; }
 
-      nav a:hover { color: darkred; }
+    form {
+      margin-top: 20px;
+      background-color: #ffffff;
+      padding: 15px;
+      display: inline-block;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
 
-      /* Section */
-      section {
-        background-color: #ffffff;
-        border: 2px solid #cccccc;
-        border-radius: 10px;
-        padding: 20px;
-        margin: 20px auto;
-        width: 80%;
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-      }
+    input, textarea {
+      padding: 5px;
+      margin: 5px 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
 
-      /* Form */
-      form {
-        text-align: left;
-        max-width: 400px;
-        margin: 0 auto;
-      }
+    input[type="submit"] {
+      background-color: darkblue;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
 
-      input, textarea {
-        width: 100%;
-        padding: 8px;
-        margin-top: 5px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-      }
+    input[type="submit"]:hover {
+      background-color: navy;
+    }
 
-      input[type="submit"] {
-        background-color: darkblue;
-        color: white;
-        border: none;
-        cursor: pointer;
-      }
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      background-color: #e0f7fa;
+    }
+  </style>
+</head>
+<body>
 
-      input[type="submit"]:hover { background-color: navy; }
+<header>
+  <h1>✨ خوش آمدید به دنیای رنگارنگ من! ✨</h1>
+  <p>اینجا یک صفحه HTML و CSS ساده و زیباست.</p>
+</header>
 
-      /* Footer */
-      footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        margin-top: 30px;
-      }
+<main>
+  <h2>بخش لینک‌ها</h2>
+  <p>می‌توانید به <a href="https://www.google.com" target="_blank">گوگل</a> بروید.</p>
 
-      footer a {
-        color: #ffd700;
-        text-decoration: none;
-        margin: 0 5px;
-      }
+  <h2>بخش تصویر</h2>
+  <img src="https://via.placeholder.com/300x150.png?text=نمونه+تصویر" alt="نمونه تصویر">
 
-      footer a:hover { text-decoration: underline; }
-    </style>
-  </head>
+  <h2>فرم تماس</h2>
+  <form>
+    <input type="text" name="name" placeholder="نام شما" required>
+    <input type="email" name="email" placeholder="ایمیل شما" required>
+    <textarea name="message" rows="4" placeholder="پیام شما" required></textarea>
+    <input type="submit" value="ارسال">
+  </form>
+</main>
 
-  <body>
-    <!-- Navigation -->
-    <nav>
-      <a href="#section1">بخش اول</a> |
-      <a href="#section2">بخش دوم</a>
-    </nav>
+<footer>
+  <p>© 2026 Parviz Bahadri</p>
+</footer>
 
-    <!-- Header -->
-    <header>
-      <h1>سلام دنیا!</h1>
-      <p>خوش آمدید!</p>
-    </header>
-
-    <!-- بخش اول -->
-    <section id="section1">
-      <h2>بخش اول</h2>
-      <p>این یک متن نمونه برای بخش اول است.</p>
-      <p>برای رفتن به گوگل روی لینک زیر کلیک کن:</p>
-      <a href="https://www.google.com" target="_blank">رفتن به گوگل</a>
-      <p>این هم یک تصویر نمونه:</p>
-      <img src="https://via.placeholder.com/150" alt="یک تصویر نمونه">
-    </section>
-
-    <!-- بخش دوم -->
-    <section id="section2">
-      <h2>بخش دوم</h2>
-      <p>این یک متن نمونه برای بخش دوم است.</p>
-    </section>
-
-    <!-- فرم تماس -->
-    <section>
-      <h2>فرم تماس</h2>
-      <form>
-        <label for="name">نام:</label><br>
-        <input type="text" id="name" name="name" placeholder="نام خود را وارد کنید"><br>
-
-        <label for="email">ایمیل:</label><br>
-        <input type="email" id="email" name="email" placeholder="ایمیل خود را وارد کنید"><br>
-
-        <label for="message">پیام:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" placeholder="پیام خود را وارد کنید"></textarea><br>
-
-        <input type="submit" value="ارسال">
-      </form>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <p>© 2026 صفحه من. همه حقوق محفوظ است.</p>
-      <p>
-        <a href="#">درباره ما</a> |
-        <a href="#">تماس</a> |
-        <a href="#">حریم خصوصی</a>
-      </p>
-    </footer>
-  </body>
+</body>
 </html>
